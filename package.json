@@ -1,0 +1,33 @@
+{
+    "name": "@modelcontextprotocol/server-mulesoft-anypoint",
+    "version": "0.6.2",
+    "description": "MCP server for interacting with Mulesoft Anypoint Platform via API",
+    "license": "MIT",
+    "author": "Sravan Kumar Nerella",
+    "type": "module",
+    "bin": {
+        "mcp-server-mulesoft-anypoint": "dist/index.js"
+    },
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "tsc && shx chmod +x dist/**/*.js",
+        "prepare": "npm run build",
+        "watch": "tsc --watch",
+        "start": "tsc && node dist/src/index.js",
+        "dev": "npm run build && npx @modelcontextprotocol/inspector node dist/src/index.js"
+    },
+    "dependencies": {
+        "@modelcontextprotocol/sdk": "1.0.1",
+        "dotenv": "^16.5.0",
+        "express": "^4.21.2",
+        "zod": "^3.25.20"
+    },
+    "devDependencies": {
+        "@types/express": "^5.0.2",
+        "@types/node": "^22",
+        "shx": "^0.3.4",
+        "typescript": "^5.6.2"
+    }
+}
