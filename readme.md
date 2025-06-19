@@ -58,10 +58,10 @@ What if you can interact with MuleSoft Design Center via Natural Language - like
 ```
     node PATH_TO_MCP_SERVER/dist/src/index.js
 ```
-4) Click on the "Send" button to test the connection
+4) Click on the "Connect" button to test the connection
 5) You should see tools and methods available for the MCP Server
 6) Click on selected tool and provide the required parameters
-7) Click on the "Send" button to execute the request
+7) Click on the "Run" button to execute the request
 8) You should see the response from the MCP Server
 
 ### 📝 Postman MCP Server Configuration
