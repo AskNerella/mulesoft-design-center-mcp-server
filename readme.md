@@ -67,5 +67,10 @@ What if you can interact with MuleSoft Design Center via Natural Language - like
 ### 📝 Postman MCP Server Configuration
 ![Postman MCP Server](./images/postman_config.png)
 
+
+## Cursor MCP Server Usage
+![Cursor MCP Server Usage](./images/usage.png)
+
+
 ## 📫 Feedback or Issues?
 Feel free to open an issue or pull request in this repo. We welcome contributions!
