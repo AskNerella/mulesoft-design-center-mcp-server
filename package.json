@@ -1,6 +1,6 @@
 {
-    "name": "@modelcontextprotocol/server-mulesoft-anypoint",
-    "version": "0.6.2",
+    "name": "mulesoft-design-center-mcp",
+    "version": "0.1.0",
     "description": "MCP server for interacting with Mulesoft Anypoint Platform via API",
     "license": "MIT",
     "author": "Sravan Kumar Nerella",
